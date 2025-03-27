@@ -4933,7 +4933,7 @@
         ],
         "filecontent": [
           "\"mermaid\",version:\"(§§version§§)\"",
-          "const .*?=\"(§§version§§)\".*?C4Context[|]C4Container"
+          "{\"\\+f\\+\"}\":\"\"}const .*?=\"(.*?)\".*?C4Context[|]C4Container"
         ]
       }
     },
