@@ -4932,7 +4932,8 @@
           "/(§§version§§)/mermaid"
         ],
         "filecontent": [
-          "\"mermaid\",version:\"(§§version§§)\""
+          "\"mermaid\",version:\"(§§version§§)\"",
+          "const .*?=\"(§§version§§)\".*?C4Context[|]C4Container"
         ]
       }
     },
