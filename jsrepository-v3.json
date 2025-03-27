@@ -4898,6 +4898,44 @@
         ]
       }
     },
+    "mermaid": {
+      "bowername": [
+        "mermaid"
+      ],
+      "npmname": "mermaid",
+      "licenses": [
+        "Apache-2.0 >=0"
+      ],
+      "vulnerabilities": [
+        {
+          "atOrAbove": "0",
+          "below": "10.9.0",
+          "cwe": [
+            "CWE-94"
+          ],
+          "severity": "high",
+          "identifiers": {
+            "summary": "mermaid xss",
+            "CVE": [
+              "CVE-2018-5158"
+            ],
+            "githubID": "GHSA-7jg2-jgv3-fmr4"
+          },
+          "info": [
+            "https://github.com/advisories/GHSA-7jg2-jgv3-fmr4"
+          ]
+        }
+      ],
+      "extractors": {
+        "uri": [
+          "/mermaid@(§§version§§)/",
+          "/(§§version§§)/mermaid"
+        ],
+        "filecontent": [
+          "\"mermaid\",version:\"(§§version§§)\""
+        ]
+      }
+    },
     "pdfobject": {
       "licenses": [
         "MIT >=0"
