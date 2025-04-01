@@ -4700,6 +4700,25 @@
         ]
       }
     },
+    "excalidraw":{
+      "bowername": [
+        "excalidraw"
+      ],
+      "npmname": "excalidraw",
+      "licenses": [
+        "Apache-2.0 >=0"
+      ],
+      "vulnerabilities": [],
+      "extractors": {
+        "uri": [
+          "/excalidraw@(§§version§§)/",
+          "/(§§version§§)/excalidraw"
+        ],
+        "filecontent": [
+          "excalidraw"
+        ]
+      }
+    },
     "pdfobject": {
       "licenses": [
         "MIT >=0"
