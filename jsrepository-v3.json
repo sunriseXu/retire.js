@@ -4735,6 +4735,21 @@
         ]
       }
     },
+    "react-markdown-preview":{
+      "bowername": [
+        "react-markdown-preview"
+      ],
+      "npmname": "react-markdown-preview",
+      "licenses": [
+        "Apache-2.0 >=0"
+      ],
+      "vulnerabilities": [],
+      "extractors": {
+        "fuzzy": [
+          "markdownPreview"
+        ]
+      }
+    },
     "pdfobject": {
       "licenses": [
         "MIT >=0"
