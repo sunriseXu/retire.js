@@ -4719,6 +4719,22 @@
         ]
       }
     },
+    "latex":{
+      "bowername": [
+        "latex"
+      ],
+      "npmname": "latex",
+      "licenses": [
+        "Apache-2.0 >=0"
+      ],
+      "vulnerabilities": [],
+      "extractors": {
+        "fuzzy": [
+          "latex",
+          "katex"
+        ]
+      }
+    },
     "pdfobject": {
       "licenses": [
         "MIT >=0"
