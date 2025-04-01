@@ -4714,7 +4714,7 @@
           "/excalidraw@(§§version§§)/",
           "/(§§version§§)/excalidraw"
         ],
-        "filecontent": [
+        "fuzzy": [
           "excalidraw"
         ]
       }
