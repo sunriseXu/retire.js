@@ -4697,6 +4697,9 @@
         "filecontent": [
           "\"mermaid\",version:\"(§§version§§)\"",
           "{\"\\+f\\+\"}\":\"\"}const .*?=\"(.*?)\".*?C4Context[|]C4Container"
+        ],
+        "fuzzy": [
+          "[^a-zA-Z]mermaid[^a-zA-Z]"
         ]
       }
     },
@@ -4730,8 +4733,8 @@
       "vulnerabilities": [],
       "extractors": {
         "fuzzy": [
-          "latex",
-          "katex"
+          "[^a-zA-Z]latex[^a-zA-Z]",
+          "[^a-zA-Z]katex[^a-zA-Z]"
         ]
       }
     },
